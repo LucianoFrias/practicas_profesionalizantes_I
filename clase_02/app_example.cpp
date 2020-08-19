@@ -95,7 +95,7 @@ int main()
                     numberOfFiles++;  // Y tenemos una ficha más
                 }
                 else   // Si no hay hueco para más archivos, avisamos
-                    cout << "Máximo de archivos alcanzado (1000)!" << endl;
+                    cout << "¡Máximo de archivos alcanzado (1000)!" << endl;
                 break;
  
             case 2: // Mostrar todos
@@ -130,7 +130,7 @@ int main()
                 break;
  
             default: // Otra opción: no válida
-                cout << "Opción desconocida!" << endl;
+                cout << "¡Opción desconocida!" << endl;
                 break;
         }
     } while (option != 5);// Si la opción es 5, terminamos
